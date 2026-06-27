@@ -1,0 +1,19 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "references": {
+    "context": {
+      "path": ".context",
+      "description": "Use para consultar documentos de elaboracao do projeto: visao, requisitos, arquitetura, decisoes, referencias"
+    },
+    "skills-mattpocock": {
+      "repository": "mattpocock/skills",
+      "description": "Use para consultar skills de engenharia: grill, triage, tdd, prd, arquitetura, domain modeling"
+    },
+    "ai-team-orchestration": {
+      "repository": "github/awesome-copilot",
+      "branch": "main",
+      "description": "Use para referencia de workflow multi-agente: orquestracao de times de IA, sprints, QA"
+    }
+  },
+  "agent": {}
+}
