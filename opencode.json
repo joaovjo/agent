@@ -15,5 +15,10 @@
       "description": "Use para referencia de workflow multi-agente: orquestracao de times de IA, sprints, QA"
     }
   },
-  "agent": {}
+  "agent": {},
+  "plugin": [
+    "@franlol/opencode-md-table-formatter@latest",
+    "@nick-vi/opencode-type-inject@latest",
+    "@tarquinen/opencode-dcp@latest"
+  ],
 }
