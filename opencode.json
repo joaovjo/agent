@@ -17,6 +17,7 @@
   },
   "agent": {},
   "plugin": [
+    "@plannotator/opencode@latest",
     "@franlol/opencode-md-table-formatter@latest",
     "@nick-vi/opencode-type-inject@latest",
     "@tarquinen/opencode-dcp@latest"
