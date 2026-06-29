@@ -8,3 +8,38 @@ Thumbs.db
 *.swp
 *.swo
 *~
+
+# Rust
+target/
+Cargo.lock
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Coverage
+coverage/
+.lcov*
+
+# Build outputs
+dist/
+build/
+out/
+
+# Misc
+.DS_Store
+Thumbs.db

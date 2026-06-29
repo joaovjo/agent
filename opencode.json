@@ -13,9 +13,22 @@
       "repository": "github/awesome-copilot",
       "branch": "main",
       "description": "Use para referencia de workflow multi-agente: orquestracao de times de IA, sprints, QA"
+    },
+    "skills-pandow": {
+      "path": ".opencode/skills",
+      "description": "Skills customizadas do Pandow Code: grill-with-docs, tdd, arch-review, prototype"
+    },
+    "agents-pandow": {
+      "path": ".opencode/agents",
+      "description": "Agentes do Pandow Code: orchestrator, elaborador, swe-frontend, swe-backend, swe-infra, qa, architect, researcher"
     }
   },
-  "agent": {},
+  "agent": {
+    "orchestrator": {
+      "description": "Agente orquestrador principal do Pandow Code",
+      "mode": "subagent"
+    }
+  },
   "plugin": [
     "@plannotator/opencode@latest",
     "@franlol/opencode-md-table-formatter@latest",
